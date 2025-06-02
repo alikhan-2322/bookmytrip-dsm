@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="bookmytrip" version="12.0.0.2017041100">
+  <ownedViewpoints name="bookmytrip" modelFileExtension="bookmytrip">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="BookMyTripDiagram&#xA;" domainClass="bookmytrip::BookMyTrip&#xA;&#xA;" enablePopupBars="true">
+      <metamodel href="../../org.rm2pt.bookmytrip.metamodel/model/bookmytrip.ecore#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="CulturalHeritageNode" semanticCandidatesExpression="feature:trips" domainClass="bookmytrip::CulturalHeritage">
+          <style xsi:type="style:WorkspaceImageDescription" labelExpression="Ancient City" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.bookmytrip.design/icons/ancient_city.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NatureEscapeNode" semanticCandidatesExpression="feature:trips" domainClass="bookmytrip::NatureEscape">
+          <style xsi:type="style:WorkspaceImageDescription" labelExpression="Hiking" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.bookmytrip.design/icons/hiking.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ExtremeAdventuresNode" semanticCandidatesExpression="feature:trips" domainClass="bookmytrip::ExtremeAdventures">
+          <style xsi:type="style:WorkspaceImageDescription" labelExpression="Water Rafting" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.bookmytrip.design/icons/water_rafting.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="MarketAndMonumentsNode" semanticCandidatesExpression="feature:trips" domainClass="bookmytrip::MarketAndMonuments">
+          <style xsi:type="style:WorkspaceImageDescription" labelExpression="City Bazaar" sizeComputationExpression="4" resizeKind="NSEW" workspacePath="/org.rm2pt.bookmytrip.design/icons/city_bazaar.svg">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createCulturalHeritage" label="Cultural Haritage" nodeMappings="//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='CulturalHeritageNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bookmytrip::CulturalHeritage" referenceName="trips">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="tripname" valueExpression="aql:'Cultural Trail'+container.trips->filter(bookmytrip::CulturalHeritage)->size()..."/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createNatureEscape" label="Nature Escape" nodeMappings="//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='NatureEscapeNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bookmytrip::NatureEscape" referenceName="trips">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="tripname" valueExpression="aql:'Forest Hike'+container.trips->filter(bookmytrip::NatureEscape)->size()&#xA;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createExtremeAdventures" label="Extreme Adventures" nodeMappings="//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='ExtremeAdventuresNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bookmytrip::ExtremeAdventures" referenceName="trips">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="tripname" valueExpression="aql:'Extreme River Safari'+container.trips->filter(bookmytrip::ExtremeAdventures)->size()&#xA;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="createMarketAndMonuments" label="Market And Monuments" nodeMappings="//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='MarketAndMonumentsNode']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="var:container">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="bookmytrip::MarketAndMonuments" referenceName="trips">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="tripname" valueExpression="aql:'City Bazaar Discovery'+container.trips->filter(bookmytrip::MarketAndMonuments)->size()&#xA;&#xA;"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="org.rm2pt.bookmytrip.design.Services"/>
+  </ownedViewpoints>
+</description:Group>

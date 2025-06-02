@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.rm2pt.bookmytrip.dsl
+Bundle-ManifestVersion: 2
+Bundle-Name: org.rm2pt.bookmytrip.dsl
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.rm2pt.bookmytrip.dsl; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.rm2pt.bookmytrip.metamodel,
+ org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.rm2pt.bookmytrip.parser.antlr,
+ org.rm2pt.bookmytrip,
+ org.rm2pt.bookmytrip.parser.antlr.internal,
+ org.rm2pt.bookmytrip.serializer,
+ org.rm2pt.bookmytrip.validation,
+ org.rm2pt.bookmytrip.scoping,
+ org.rm2pt.bookmytrip.services,
+ org.rm2pt.bookmytrip.generator
+Import-Package: org.apache.log4j

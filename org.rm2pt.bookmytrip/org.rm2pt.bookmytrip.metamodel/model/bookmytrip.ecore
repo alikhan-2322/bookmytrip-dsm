@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="bookmytrip" nsURI="http://www.rm2pt.com/bookmytrip" nsPrefix="bookmytrip">
+  <eClassifiers xsi:type="ecore:EClass" name="BookMyTrip">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trips" upperBound="-1"
+        eType="#//TripType" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TripType" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="TripID" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Tripname" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Duration" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Price" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EFloat"
+        defaultValueLiteral="0.0"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="culturalheritage" eType="#//CulturalHeritage"
+        derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="natureescape" eType="#//NatureEscape"
+        derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="extremeadventures" eType="#//ExtremeAdventures"
+        derived="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="marketandmonuments" eType="#//MarketAndMonuments"
+        derived="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CulturalHeritage" eSuperTypes="#//TripType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ancientCities" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NatureEscape" eSuperTypes="#//TripType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="naturalSites" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ExtremeAdventures" eSuperTypes="#//TripType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="adventureActivities" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MarketAndMonuments" eSuperTypes="#//TripType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="touristAttractions" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+</ecore:EPackage>

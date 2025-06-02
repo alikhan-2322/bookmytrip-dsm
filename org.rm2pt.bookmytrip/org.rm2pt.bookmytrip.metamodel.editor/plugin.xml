@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated bookmytrip -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="org.rm2pt.bookmytrip.metamodel.bookmytrip.presentation.BookmytripModelWizardID"
+            name="%_UI_BookmytripModelWizard_label"
+            class="org.rm2pt.bookmytrip.metamodel.bookmytrip.presentation.BookmytripModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BookmytripModelFile.gif">
+         <description>%_UI_BookmytripModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated bookmytrip -->
+      <editor
+            id="org.rm2pt.bookmytrip.metamodel.bookmytrip.presentation.BookmytripEditorID"
+            name="%_UI_BookmytripEditor_label"
+            icon="icons/full/obj16/BookmytripModelFile.gif"
+            extensions="bookmytrip"
+            class="org.rm2pt.bookmytrip.metamodel.bookmytrip.presentation.BookmytripEditor"
+            contributorClass="org.rm2pt.bookmytrip.metamodel.bookmytrip.presentation.BookmytripActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

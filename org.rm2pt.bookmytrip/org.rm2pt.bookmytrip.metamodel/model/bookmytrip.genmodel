@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/org.rm2pt.bookmytrip.metamodel/src-gen" creationIcons="false"
+    editDirectory="/org.rm2pt.bookmytrip.metamodel.edit/src-gen" editorDirectory="/org.rm2pt.bookmytrip.metamodel.editor/src-gen"
+    modelPluginID="org.rm2pt.bookmytrip.metamodel" modelName="Bookmytrip" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>bookmytrip.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Bookmytrip" basePackage="org.rm2pt.bookmytrip.metamodel" disposableProviderFactory="true"
+      ecorePackage="bookmytrip.ecore#/">
+    <genClasses ecoreClass="bookmytrip.ecore#//BookMyTrip">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//BookMyTrip/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference bookmytrip.ecore#//BookMyTrip/trips"/>
+    </genClasses>
+    <genClasses ecoreClass="bookmytrip.ecore#//TripType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//TripType/TripID"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//TripType/Tripname"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//TripType/Description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//TripType/Duration"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//TripType/Price"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference bookmytrip.ecore#//TripType/culturalheritage"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference bookmytrip.ecore#//TripType/natureescape"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference bookmytrip.ecore#//TripType/extremeadventures"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference bookmytrip.ecore#//TripType/marketandmonuments"/>
+    </genClasses>
+    <genClasses ecoreClass="bookmytrip.ecore#//CulturalHeritage">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//CulturalHeritage/ancientCities"/>
+    </genClasses>
+    <genClasses ecoreClass="bookmytrip.ecore#//NatureEscape">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//NatureEscape/naturalSites"/>
+    </genClasses>
+    <genClasses ecoreClass="bookmytrip.ecore#//ExtremeAdventures">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//ExtremeAdventures/adventureActivities"/>
+    </genClasses>
+    <genClasses ecoreClass="bookmytrip.ecore#//MarketAndMonuments">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute bookmytrip.ecore#//MarketAndMonuments/touristAttractions"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>
