@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmytrip:BookMyTrip xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bookmytrip="http://www.rm2pt.com/bookmytrip">
+  <trips xsi:type="bookmytrip:CulturalHeritage" TripID="1001" Tripname="Cultural Trail" Duration="2" Price="300.0"/>
+  <trips xsi:type="bookmytrip:NatureEscape" TripID="1002" Tripname="Forest Hike" Duration="5" Price="500.0"/>
+  <trips xsi:type="bookmytrip:ExtremeAdventures" TripID="1003" Tripname="Water Rafting" Duration="5" Price="500.0"/>
+  <trips xsi:type="bookmytrip:MarketAndMonuments" TripID="1004" Tripname="City Bazaar" Duration="2" Price="300.0"/>
+</bookmytrip:BookMyTrip>

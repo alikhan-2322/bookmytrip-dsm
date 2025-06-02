@@ -1,0 +1,45 @@
+BookMyTrip "Trip Collection"
+{
+  trips
+  {
+    CulturalHeritage
+    {
+      TripID 1001
+      Tripname "Cultural Trail"
+      Description "Visit ancient cultural cities"
+      Duration 2
+      Price 300.0
+      ancientCities "Cairo"
+    },
+
+    NatureEscape
+    {
+      TripID 1002
+      Tripname "Forest Hike"
+      Description "Explore forest nature"
+      Duration 5
+      Price 500.0
+      naturalSites "Black Forest, Amazon Jungle"
+    },
+
+    ExtremeAdventures
+    {
+      TripID 1003
+      Tripname "Water Rafting"
+      Description "Adventure in white-water rapids"
+      Duration 5
+      Price 500.0
+      adventureActivities "White Water Rafting"
+    },
+
+    MarketAndMonuments
+    {
+      TripID 1004
+      Tripname "City Bazaar"
+      Description "Bazaar and monuments tour"
+      Duration 2
+      Price 300.0
+      touristAttractions "Istanbul Grand Bazaar, Delhi Chandni Chowk"
+    }
+  }
+}
