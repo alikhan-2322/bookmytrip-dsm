@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookmytrip:BookMyTrip xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bookmytrip="http://www.rm2pt.com/bookmytrip" name="">
+  <trips xsi:type="bookmytrip:CulturalHeritage" TripID="1001" Tripname="Cultural Trail" Description="A journey through famous heritage sites and cultural landmarks showcasing local traditions and history." Duration="2" Price="500.0" ancientCities=""/>
+  <trips xsi:type="bookmytrip:NatureEscape" TripID="1002" Tripname="Forest Hike" Description="Peaceful hike through scenic forests, ideal for nature lovers and bird watchers.&#xA;&#xA;" Duration="3" Price="600.0"/>
+  <trips xsi:type="bookmytrip:ExtremeAdventures" TripID="1003" Tripname="Extreme River Safari&#xA;&#xA;" Description="Thrilling white-water rafting adventure for adrenaline seekers along rapid-filled rivers." Duration="4" Price="700.0"/>
+  <trips xsi:type="bookmytrip:MarketAndMonuments" TripID="1004" Tripname="City Bazaar Discovery&#xA;&#xA;" Description="Guided tour of local markets and iconic city landmarks with time for sightseeing and shopping.&#xA;&#xA;" Duration="2" Price="400.0"/>
+</bookmytrip:BookMyTrip>

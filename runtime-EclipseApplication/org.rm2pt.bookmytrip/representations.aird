@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bookmytrip="http://www.rm2pt.com/bookmytrip" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_6KK_8D0wEfCh66h2OX8c9g" selectedViews="_VV5l4D07EfCJEtMmC-aAOw" version="14.5.1.202106111100">
+    <semanticResources>My.bookmytrip</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_VV5l4D07EfCJEtMmC-aAOw">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_iynCoD07EfCJEtMmC-aAOw" name="new BookMyTripDiagram&#xD;&#xA;" repPath="#_iyTgoD07EfCJEtMmC-aAOw" changeId="827275d0-4551-4f27-a435-cde04c1ff296">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+        <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_O3Q2AD4hEfCO_7t_BS6p7Q" name="new BookMyTripDiagram&#xD;&#xA;" repPath="#_O3Pn4D4hEfCO_7t_BS6p7Q" changeId="aa5662e4-afaa-418d-9c42-74dfb6d1d275">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+        <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_Z11cYj4hEfCO_7t_BS6p7Q" name="new BookMyTripDiagram&#xD;&#xA;" repPath="#_Z11cYD4hEfCO_7t_BS6p7Q" changeId="b43331ae-3869-47be-bc09-c32992522ab7">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+        <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_vxqlEj4iEfCxE7nx0DppnQ" name="new BookMyTripDiagram&#xD;&#xA;" repPath="#_vxqlED4iEfCxE7nx0DppnQ" changeId="4dbe71d8-9e73-4a92-83b2-35ae3e387f16">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+        <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_93kv0D4iEfC1ZeHp7tTDmA" name="new BookMyTripDiagram&#xD;&#xA;" repPath="#_93LuQD4iEfC1ZeHp7tTDmA" changeId="5f59421c-ca6e-469d-bc7a-6558333362c5">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+        <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_iyTgoD07EfCJEtMmC-aAOw">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_iy7LsD07EfCJEtMmC-aAOw" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_iy7LsT07EfCJEtMmC-aAOw" type="Sirius" element="_iyTgoD07EfCJEtMmC-aAOw" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_iy7Lsj07EfCJEtMmC-aAOw"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_izaT4D07EfCJEtMmC-aAOw" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_izaT4T07EfCJEtMmC-aAOw"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_iycqkD07EfCJEtMmC-aAOw"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer"/>
+    <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_O3Pn4D4hEfCO_7t_BS6p7Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_O3dDQD4hEfCO_7t_BS6p7Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_O3dDQT4hEfCO_7t_BS6p7Q" type="Sirius" element="_O3Pn4D4hEfCO_7t_BS6p7Q" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_O3dDQj4hEfCO_7t_BS6p7Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_O3lmID4hEfCO_7t_BS6p7Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_O3m0QD4hEfCO_7t_BS6p7Q"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_O3Pn4T4hEfCO_7t_BS6p7Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer"/>
+    <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_Z11cYD4hEfCO_7t_BS6p7Q">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Z14fsD4hEfCO_7t_BS6p7Q" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_Z14fsT4hEfCO_7t_BS6p7Q" type="Sirius" element="_Z11cYD4hEfCO_7t_BS6p7Q" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_Z14fsj4hEfCO_7t_BS6p7Q"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_Z1_NYD4hEfCO_7t_BS6p7Q" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_Z2AbgD4hEfCO_7t_BS6p7Q"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_Z11cYT4hEfCO_7t_BS6p7Q"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer"/>
+    <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_vxqlED4iEfCxE7nx0DppnQ">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_vx2yUD4iEfCxE7nx0DppnQ" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_vx2yUT4iEfCxE7nx0DppnQ" type="Sirius" element="_vxqlED4iEfCxE7nx0DppnQ" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_vx2yUj4iEfCxE7nx0DppnQ"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_vx-HED4iEfCxE7nx0DppnQ" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_vx-HET4iEfCxE7nx0DppnQ"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_vxqlET4iEfCxE7nx0DppnQ"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer"/>
+    <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_93LuQD4iEfC1ZeHp7tTDmA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_9378MD4iEfC1ZeHp7tTDmA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_9378MT4iEfC1ZeHp7tTDmA" type="Sirius" element="_93LuQD4iEfC1ZeHp7tTDmA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_944-cD4iEfC1ZeHp7tTDmA" type="2001" element="_94WL4D4iEfC1ZeHp7tTDmA">
+          <children xmi:type="notation:Node" xmi:id="_95CvcD4iEfC1ZeHp7tTDmA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_95CvcT4iEfC1ZeHp7tTDmA" x="69" y="-29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_oBygkD4oEfC_saAjYUOHVA" type="3005" element="_oBrL0D4oEfC_saAjYUOHVA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_oBygkT4oEfC_saAjYUOHVA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oBygkj4oEfC_saAjYUOHVA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_944-cT4iEfC1ZeHp7tTDmA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_944-cj4iEfC1ZeHp7tTDmA" x="-84" y="225" width="265" height="295"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_95Hn8D4iEfC1ZeHp7tTDmA" type="2001" element="_94gj8D4iEfC1ZeHp7tTDmA">
+          <children xmi:type="notation:Node" xmi:id="_95Hn8z4iEfC1ZeHp7tTDmA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_95Hn9D4iEfC1ZeHp7tTDmA" x="105" y="-29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HO4OsD4pEfCICNqTU2QOcw" type="3005" element="_HOmh4z4pEfCICNqTU2QOcw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HO4OsT4pEfCICNqTU2QOcw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HO4Osj4pEfCICNqTU2QOcw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_95Hn8T4iEfC1ZeHp7tTDmA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_95Hn8j4iEfC1ZeHp7tTDmA" x="480" y="194" width="301" height="325"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_95Hn9T4iEfC1ZeHp7tTDmA" type="2001" element="_94gj8z4iEfC1ZeHp7tTDmA">
+          <children xmi:type="notation:Node" xmi:id="_95Hn-D4iEfC1ZeHp7tTDmA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_95Hn-T4iEfC1ZeHp7tTDmA" x="30" y="-29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HPEb8D4pEfCICNqTU2QOcw" type="3005" element="_HOqMQT4pEfCICNqTU2QOcw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HPEb8T4pEfCICNqTU2QOcw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPEb8j4pEfCICNqTU2QOcw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_95Hn9j4iEfC1ZeHp7tTDmA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_95Hn9z4iEfC1ZeHp7tTDmA" x="210" y="255" width="226" height="280"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_95LSUD4iEfC1ZeHp7tTDmA" type="2001" element="_94jAMD4iEfC1ZeHp7tTDmA">
+          <children xmi:type="notation:Node" xmi:id="_95LSUz4iEfC1ZeHp7tTDmA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_95LSVD4iEfC1ZeHp7tTDmA" x="75" y="-29"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_HPG4MD4pEfCICNqTU2QOcw" type="3005" element="_HOqzUT4pEfCICNqTU2QOcw">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_HPG4MT4pEfCICNqTU2QOcw" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HPG4Mj4pEfCICNqTU2QOcw"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_95LSUT4iEfC1ZeHp7tTDmA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_95LSUj4iEfC1ZeHp7tTDmA" x="810" y="217" width="295" height="280"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_9378Mj4iEfC1ZeHp7tTDmA"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_94k1YD4iEfC1ZeHp7tTDmA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_94k1YT4iEfC1ZeHp7tTDmA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_94WL4D4iEfC1ZeHp7tTDmA" name="Ancient City" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="bookmytrip:CulturalHeritage" href="My.bookmytrip#//@trips.0"/>
+      <semanticElements xmi:type="bookmytrip:CulturalHeritage" href="My.bookmytrip#//@trips.0"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_oBrL0D4oEfC_saAjYUOHVA" labelSize="12" workspacePath="/org.rm2pt.bookmytrip.design/icons/ancient_city.svg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='CulturalHeritageNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='CulturalHeritageNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_94gj8D4iEfC1ZeHp7tTDmA" name="Hiking" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="bookmytrip:NatureEscape" href="My.bookmytrip#//@trips.1"/>
+      <semanticElements xmi:type="bookmytrip:NatureEscape" href="My.bookmytrip#//@trips.1"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_HOmh4z4pEfCICNqTU2QOcw" labelSize="12" workspacePath="/org.rm2pt.bookmytrip.design/icons/hiking.svg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='NatureEscapeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='NatureEscapeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_94gj8z4iEfC1ZeHp7tTDmA" name="Water Rafting" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="bookmytrip:ExtremeAdventures" href="My.bookmytrip#//@trips.2"/>
+      <semanticElements xmi:type="bookmytrip:ExtremeAdventures" href="My.bookmytrip#//@trips.2"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_HOqMQT4pEfCICNqTU2QOcw" labelSize="12" workspacePath="/org.rm2pt.bookmytrip.design/icons/water_rafting.svg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='ExtremeAdventuresNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='ExtremeAdventuresNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_94jAMD4iEfC1ZeHp7tTDmA" name="City Bazaar" width="4" height="4" resizeKind="NSEW">
+      <target xmi:type="bookmytrip:MarketAndMonuments" href="My.bookmytrip#//@trips.3"/>
+      <semanticElements xmi:type="bookmytrip:MarketAndMonuments" href="My.bookmytrip#//@trips.3"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:WorkspaceImage" uid="_HOqzUT4pEfCICNqTU2QOcw" labelSize="12" workspacePath="/org.rm2pt.bookmytrip.design/icons/city_bazaar.svg">
+        <customFeatures>labelSize</customFeatures>
+        <description xmi:type="style:WorkspaceImageDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='MarketAndMonumentsNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer/@nodeMappings[name='MarketAndMonumentsNode']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_93XUcD4iEfC1ZeHp7tTDmA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.rm2pt.bookmytrip.design/description/bookmytrip.odesign#//@ownedViewpoints[name='bookmytrip']/@ownedRepresentations[name='BookMyTripDiagram%0A']/@defaultLayer"/>
+    <target xmi:type="bookmytrip:BookMyTrip" href="My.bookmytrip#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>
