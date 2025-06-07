@@ -4,7 +4,9 @@
 > This repository contains:  
 > - **An Ecore Metamodel** for the BookMyTrip domain  
 > - **A Textual DSL** to author trip instances  
-> - **A Sirius-generated graphical editor** to visualize and edit models  
+> - **A Sirius-generated graphical editor** to visualize and edit models
+> - **Eclipse Xtext text language modeling** to automatically generate the corresponding Xtext
+ grammar from the EMF metamodel.  
 > - **Maven setup** to build & package as an Eclipse plugin  
 
 ---
