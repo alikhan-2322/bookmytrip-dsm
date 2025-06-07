@@ -5,7 +5,7 @@
 > - **An Ecore Metamodel** for the BookMyTrip domain  
 > - **A Textual DSL** to author trip instances  
 > - **A Sirius-generated graphical editor** to visualize and edit models  
-> - **Maven setup** to build and package everything as an Eclipse plugin  
+> - **Maven setup** to build & package as an Eclipse plugin  
 
 ---
 
@@ -13,9 +13,10 @@
 
 1. [Ecore Metamodel Overview](#1-ecore-metamodel-overview)  
 2. [Sirius Design (Graphical Viewpoint)](#2-sirius-design-graphical-viewpoint)  
-3. [Sirius Graphical Editor View](#3-sirius-graphical-editor-view)  
-4. [Plugin Testing (Sirius Graphical Viewpoint)](#4-plugin-testing-sirius-graphical-viewpoint)  
-5. [Conclusion & Next Steps](#5-conclusion--next-steps)  
+3. [Sirius Graphical Editor View](#3-sirius-graphical-editor-view)
+4. [Xtext Textual Language Modeling](#4-xtext-textual-language-modeling)  
+5. [Plugin Testing (Sirius Graphical Viewpoint)](#5-plugin-testing-sirius-graphical-viewpoint)  
+6. [Conclusion & Next Steps](#6-conclusion--next-steps)  
 
 ---
 
@@ -95,12 +96,90 @@ Below is a screenshot of the **Sirius-generated graphical editor view** (launche
      - **Ancient Cities:** (editable list of cities)
 
 ---
+## 4. Xtext Textual Language Modeling
 
-## 4. Plugin Testing (Sirius Graphical Viewpoint)
+We used RM2PT to auto-generate an Xtext grammar (`Dsl.xtext`) from our EMF metamodel. This grammar defines the DSL syntax for writing `BookMyTrip` models.
+
+![Generated Xtext Grammar](docs/Xtext.1.png)
+![Generated Xtext Grammar](docs/Xtext.2.png)
+*Figure 4.* The generated `Dsl.xtext` grammar in `org.rm2pt.bookmytrip.dsl`.
+
+```antlr
+// --- 1. Grammar Header & Imports ---
+grammar org.rm2pt.bookmytrip.Dsl with org.eclipse.xtext.common.Terminals
+
+import "http://www.rm2pt.com/bookmytrip"
+import "http://www.eclipse.org/emf/2002/Ecore" as ecore
+
+// --- 2. Entry Rule (Root Model) ---
+BookMyTrip returns BookMyTrip:
+  'BookMyTrip' name=EString '{'
+    ('trips' '{' trips+=TripType (',' trips+=TripType)* '}')?
+  '}';
+
+// --- 3. Dispatch Rule for TripType ---
+TripType returns TripType:
+    CulturalHeritage | NatureEscape | ExtremeAdventures | MarketAndMonuments;
+
+// --- 4. Primitive Type Rules ---
+EString returns ecore::EString:
+    STRING | ID;
+
+EInt returns ecore::EInt:
+    '-'? INT;
+
+EFloat returns ecore::EFloat:
+    '-'? INT '.' INT (('E'|'e') '-'? INT)?;
+
+// --- 5. Concrete TripType Rules ---
+CulturalHeritage returns CulturalHeritage:
+  'CulturalHeritage' '{'
+    ('TripID' TripID=EInt)?
+    ('Tripname' Tripname=EString)?
+    ('Description' Description=EString)?
+    ('Duration' Duration=EInt)?
+    ('Price' Price=EFloat)?
+    ('ancientCities' ancientCities=EString)?
+  '}';
+
+NatureEscape returns NatureEscape:
+  'NatureEscape' '{'
+    ('TripID' TripID=EInt)?
+    ('Tripname' Tripname=EString)?
+    ('Description' Description=EString)?
+    ('Duration' Duration=EInt)?
+    ('Price' Price=EFloat)?
+    ('naturalSites' naturalSites=EString)?
+  '}';
+
+ExtremeAdventures returns ExtremeAdventures:
+  'ExtremeAdventures' '{'
+    ('TripID' TripID=EInt)?
+    ('Tripname' Tripname=EString)?
+    ('Description' Description=EString)?
+    ('Duration' Duration=EInt)?
+    ('Price' Price=EFloat)?
+    ('adventureActivities' adventureActivities=EString)?
+  '}';
+
+MarketAndMonuments returns MarketAndMonuments:
+  'MarketAndMonuments' '{'
+    ('TripID' TripID=EInt)?
+    ('Tripname' Tripname=EString)?
+    ('Description' Description=EString)?
+    ('Duration' Duration=EInt)?
+    ('Price' Price=EFloat)?
+    ('touristAttractions' touristAttractions=EString)?
+  '}';
+
+
+```
+
+## 5. Plugin Testing (Sirius Graphical Viewpoint)
 
 After building and installing the BookMyTrip plugin, you can verify the graphical editor by launching an Eclipse runtime with the plugin enabled. The screenshots below capture (a) a successful Maven build and (b) the running Sirius editor inside the `test.bookmytrip.plugin`:
 
-### 4.1 Maven Build Console Output
+### 5.1 Maven Build Console Output
 
 ![Maven Build Success](docs/Plug-in%20building%20and%20testing.png)  
 *<!-- Insert Maven build console screenshot here -->*
@@ -115,7 +194,7 @@ After building and installing the BookMyTrip plugin, you can verify the graphica
 
 ---
 
-### 4.2 Sirius Diagram in Test Plugin
+### 5.2 Sirius Diagram in Test Plugin
 
 ![BookMyTrip Diagram in Test Plugin](docs/test-plugin.png)  
 *<!-- Insert Sirius diagram from test plugin here -->*
@@ -146,7 +225,7 @@ This confirms that:
 
 ---
 
-## 5. Conclusion & Next Steps
+## 6. Conclusion & Next Steps
 
 - **Successful Build:**  
   The Maven build completes without errors, creating all required plugins, an update site, and a standalone runtime.  
