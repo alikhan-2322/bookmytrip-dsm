@@ -25,7 +25,7 @@ Below is the EMF class diagram that defines the core BookMyTrip metamodel. It sh
 
 > **Figure 1.** EMF class diagram for the BookMyTrip metamodel. The `BookMyTrip` root contains a collection of `TripType` instances, each with its own attributes and subtype.
 
-![BookMyTrip Metamodel](images/bookmytrip_metamodel.png)  
+![BookMyTrip Metamodel](docs/1.png)  
 *<!-- Insert Figure 1 here -->*
 
 ---
@@ -36,7 +36,7 @@ The screenshot below shows the **Sirius Specification Editor**, illustrating how
 
 > **Figure 2.** The Sirius Specification Editor for BookMyTrip. Each trip-type node is represented (`CulturalHeritageNode`, `NatureEscapeNode`, `ExtremeAdventuresNode`, `MarketAndMonumentsNode`), and creation tools are defined under the “Section” node.
 
-![Sirius Specification Editor](images/bookmytrip_sirius_spec.png)  
+![Sirius Specification Editor](docs/Diagram%20Editor.png)  
 *<!-- Insert Figure 2 here -->*
 
 ### Key Elements
@@ -70,7 +70,7 @@ Below is a screenshot of the **Sirius-generated graphical editor view** (launche
 
 > **Figure 3.** The Sirius graphical editor showing four trip nodes and the Properties view. You can use the palette to add new trip instances, arrange them on the canvas, and edit attribute values directly in the Properties panel.
 
-![Sirius Graphical Editor View](images/bookmytrip_sirius_runtime.png)  
+![Sirius Graphical Editor View](docs/SiriusGraphicalLanguage.png)  
 *<!-- Insert Figure 3 here -->*
 
 ### View Components
@@ -102,7 +102,7 @@ After building and installing the BookMyTrip plugin, you can verify the graphica
 
 ### 4.1 Maven Build Console Output
 
-![Maven Build Success](images/build-success.png)  
+![Maven Build Success](docs/Plug-in%20building%20and%20testing.png)  
 *<!-- Insert Maven build console screenshot here -->*
 
 - The console shows **BUILD SUCCESS** for all modules:  
@@ -117,7 +117,7 @@ After building and installing the BookMyTrip plugin, you can verify the graphica
 
 ### 4.2 Sirius Diagram in Test Plugin
 
-![BookMyTrip Diagram in Test Plugin](images/sirius-diagram.png)  
+![BookMyTrip Diagram in Test Plugin](docs/test-plugin.png)  
 *<!-- Insert Sirius diagram from test plugin here -->*
 
 - The `test.bookmytrip.plugin` is running inside the runtime Eclipse application.  
@@ -163,14 +163,4 @@ This confirms that:
 
 ---
 
-### 📌 Placeholder Image List
 
-To ensure all figures appear correctly, add the following images under `images/` before publishing:
-
-1. `bookmytrip_metamodel.png` – **Figure 1**: EMF class diagram.  
-2. `bookmytrip_sirius_spec.png` – **Figure 2**: Sirius Specification Editor.  
-3. `bookmytrip_sirius_runtime.png` – **Figure 3**: Sirius graphical editor view (Runtime Eclipse).  
-4. `build-success.png` – **Figure 4**: Maven build console output.  
-5. `sirius-diagram.png` – **Figure 5**: Sirius diagram inside test plugin.  
-
-Make sure each image file is the correct resolution (at least 800×600 pixels) for readability.
